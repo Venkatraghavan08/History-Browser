@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* App.css */
+
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling for the entire application */
+.main-container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Styling for the top section */
+.top-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+}
+
+.search-holder {
+  display: flex;
+  align-items: center;
+}
+
+.input-elements {
+  padding: 8px;
+  margin-left: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Styling for the content section */
+.content-holder {
+  padding: 16px;
+}
+
+/* Styling for the inner list */
+.inner-holder {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-holder {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.time {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.icon-holder {
+  display: flex;
+  align-items: center;
+}
+
+.logo-element {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+.logo-content {
+  flex: 1;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.website {
+  color: #666;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Styling for the empty container */
+.empty-container {
+  text-align: center;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.empty-elements {
+  color: #666;
+}
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 400px) {
+  .main-container {
+    max-width: 100%;
+  }
+}
